@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T13:53:41 EST" name="Default suite" finished-at="2023-12-01T13:54:06 EST" duration-ms="24257">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T13:53:41 EST" name="Default test" finished-at="2023-12-01T13:54:06 EST" duration-ms="24257">
+      <class name="com.automation.TestNG.day4.SoftAssert_In_TentNg">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:42 EST" name="launchUrl" finished-at="2023-12-01T13:53:49 EST" duration-ms="7058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="loginLogic()[pri:1, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:49 EST" name="loginLogic" finished-at="2023-12-01T13:53:50 EST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:50 EST" name="tearDown" finished-at="2023-12-01T13:53:51 EST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:51 EST" name="launchUrl" finished-at="2023-12-01T13:53:56 EST" duration-ms="5696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="logoutLogic()[pri:2, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:56 EST" name="logoutLogic" finished-at="2023-12-01T13:53:58 EST" duration-ms="1336" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Deliberately Failing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Deliberately Failing
+at org.testng.Assert.fail(Assert.java:111)
+at com.automation.TestNG.day4.SoftAssert_In_TentNg.logoutLogic(SoftAssert_In_TentNg.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:58 EST" name="tearDown" finished-at="2023-12-01T13:53:58 EST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:53:58 EST" name="launchUrl" finished-at="2023-12-01T13:54:04 EST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="negativeLogin()[pri:2, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:54:04 EST" name="negativeLogin" finished-at="2023-12-01T13:54:05 EST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestNG.day4.SoftAssert_In_TentNg@78e4deb0]" started-at="2023-12-01T13:54:05 EST" name="tearDown" finished-at="2023-12-01T13:54:06 EST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestNG.day4.SoftAssert_In_TentNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

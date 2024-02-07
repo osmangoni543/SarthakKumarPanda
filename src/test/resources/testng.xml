@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.TestNG.day6.ApplyingDataDriven_this_super_Keywords.SearchProduct_Test"/>
+      <class name="com.automation.TestNG.day6.ApplyingDataDriven_this_super_Keywords.Register_Test"/>
+      <class name="com.automation.TestNG.day6.ApplyingDataDriven_this_super_Keywords.Login_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
